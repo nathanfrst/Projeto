@@ -26,12 +26,12 @@ O projeto ainda está em desenvolvimento.
 
 ### Fundação
 
-* [x] Criar janela do jogo
-* [x] Criar `GamePanel`
-* [x] Implementar game loop
-* [x] Implementar entrada de teclado
-* [x] Criar personagem
-* [x] Implementar câmera inicial
+* [ ] Criar janela do jogo
+* [ ] Criar `GamePanel`
+* [ ] Implementar game loop
+* [ ] Implementar entrada de teclado
+* [ ] Criar personagem
+* [ ] Implementar câmera inicial
 * [ ] Implementar sistema de escala
 * [ ] Implementar fullscreen
 * [ ] Implementar modo janela
