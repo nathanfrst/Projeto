@@ -1,4 +1,4 @@
-# Automata
+# Projeto Faculdade
 
 **Automata** é um jogo de programação e resolução de puzzles no qual o jogador controla um robô por meio de uma linguagem de programação inspirada em Java.
 
