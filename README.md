@@ -20,48 +20,6 @@ O conceito, a história e as mecânicas ainda estão em desenvolvimento.
 * IntelliJ IDEA
 * Git / GitHub
 
-
-## Sistema de câmera
-
-O jogo possui uma câmera horizontal que acompanha o jogador.
-
-A câmera será utilizada para permitir que o cenário se estenda além da área visível da tela, característica fundamental de um side-scroller.
-
-Conceito:
-
-```text
-MUNDO DO JOGO
-──────────────────────────────────────────────────────────────
-        cenário              PLAYER
-                              ↓
-                  ┌─────────────────────┐
-                  │    ÁREA VISÍVEL     │
-                  └─────────────────────┘
-                              ↓
-                           CÂMERA
-```
-
-
-## Resolução
-
-O jogo utiliza uma resolução lógica baseada em tiles.
-
-Configuração atual:
-
-```text
-Tile original: 32 × 32
-Escala:        3×
-Tile atual:    96 × 96
-
-Tela:
-16 × 12 tiles
-
-Resolução lógica:
-768 × 576
-```
-
-A resolução física da janela poderá ser diferente da resolução lógica, permitindo futuramente suporte a fullscreen e diferentes tamanhos de janela.
-
 ## Roadmap
 
 O projeto ainda está em desenvolvimento.
