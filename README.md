@@ -20,60 +20,6 @@ O conceito, a história e as mecânicas ainda estão em desenvolvimento.
 * IntelliJ IDEA
 * Git / GitHub
 
-### Principais componentes
-
-#### `Main`
-
-Responsável pela inicialização da aplicação e configuração da janela do jogo.
-
-#### `GamePanel`
-
-Responsável pela área de renderização e pelo funcionamento principal do jogo.
-
-Atualmente concentra:
-
-* Game loop
-* Atualização do estado do jogo
-* Renderização
-* Controle da câmera
-* Entrada do jogador
-
-#### `Player`
-
-Responsável pelo personagem controlado pelo jogador.
-
-Pretende-se implementar:
-
-* Movimentação
-* Direção
-* Animações
-* Sprites
-* Física
-* Interações
-
-#### `KeyHandler`
-
-Responsável pela leitura das entradas do teclado.
-
-## Game Loop
-
-O jogo utiliza um game loop baseado em uma thread própria.
-
-O loop é responsável por atualizar o estado do jogo e solicitar sua renderização continuamente.
-
-Fluxo simplificado:
-
-```text
-Game Loop
-   │
-   ├── update()
-   │      └── Atualiza o estado do jogo
-   │
-   └── repaint()
-          └── Renderiza o estado atual
-```
-
-A taxa de atualização atual está configurada para **120 FPS**.
 
 ## Sistema de câmera
 
