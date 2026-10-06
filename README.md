@@ -41,27 +41,6 @@ MUNDO DO JOGO
                            CÂMERA
 ```
 
-## Sistema de sprites
-
-Os personagens utilizam imagens (`BufferedImage`) organizadas em arrays para representar diferentes frames de animação.
-
-Exemplo conceitual:
-
-```text
-playerDown
-[0] [1] [2] [3]
-
-playerUp
-[0] [1] [2] [3]
-
-playerLeft
-[0] [1] [2] [3]
-
-playerRight
-[0] [1] [2] [3]
-```
-
-O frame atual é selecionado durante a execução do game loop para produzir as animações do personagem.
 
 ## Resolução
 
