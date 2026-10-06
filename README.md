@@ -20,23 +20,6 @@ O conceito, a história e as mecânicas ainda estão em desenvolvimento.
 * IntelliJ IDEA
 * Git / GitHub
 
-## Estrutura atual
-
-O projeto utiliza uma arquitetura baseada em componentes:
-
-```text
-Main
- │
- └── JFrame
-      │
-      └── GamePanel
-           ├── Game Loop
-           ├── Player
-           ├── Input
-           ├── Camera
-           └── Renderização
-```
-
 ### Principais componentes
 
 #### `Main`
